@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>موقعي الشخصي</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Cairo', sans-serif; }
+    body { background: #f5f7fa; color: #333; line-height: 1.8; }
+    header { background: linear-gradient(135deg, #4f46e5, #6366f1); color: white; padding: 80px 20px; text-align: center; }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header p { font-size: 1.2rem; opacity: 0.95; }
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    h2 { font-size: 2rem; margin-bottom: 20px; color: #4f46e5; }
+    .skills, .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+    .card { background: white; padding: 20px; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); transition: transform .3s ease, box-shadow .3s ease; }
+    .card:hover { transform: translateY(-6px); box-shadow: 0 15px 30px rgba(0,0,0,0.12); }
+    footer { background: #111827; color: #ccc; text-align: center; padding: 30px 20px; margin-top: 40px; }
+    a { color: #6366f1; text-decoration: none; font-weight: 600; }
+  </style>
+</head>
+<body><header>
+  <h1>مرحبًا، أنا اسمك هنا</h1>
+  <p>مطور / مصمم / صانع محتوى</p>
+</header><section>
+  <h2>من أنا</h2>
+  <p>
+    أنا شخص شغوف بمجالي، أحب التعلم المستمر وبناء أشياء مفيدة وأنيقة.
+    هذا الموقع هو مساحتي الشخصية لمشاركة مهاراتي وأعمالي.
+  </p>
+</section><section>
+  <h2>مهاراتي</h2>
+  <div class="skills">
+    <div class="card">HTML & CSS</div>
+    <div class="card">JavaScript</div>
+    <div class="card">تصميم واجهات</div>
+    <div class="card">حل المشكلات</div>
+  </div>
+</section><section>
+  <h2>أعمالي</h2>
+  <div class="projects">
+    <div class="card">مشروع رقم 1</div>
+    <div class="card">مشروع رقم 2</div>
+    <div class="card">مشروع رقم 3</div>
+  </div>
+</section><section>
+  <h2>تواصل معي</h2>
+  <p>
+    📧 البريد الإلكتروني: <a href="mailto:example@email.com">example@email.com</a><br />
+    🔗 لينكدإن | تويتر | انستغرام
+  </p>
+</section><footer>
+  <p>© 2026 جميع الحقوق محفوظة</p>
+</footer></body>
+</html>
